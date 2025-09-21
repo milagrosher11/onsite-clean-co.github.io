@@ -12,6 +12,8 @@ body {
   background: #ffffff;   /* white background */
   color: #333;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header */
@@ -52,15 +54,16 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Hero Section */
+/* Hero section */
 .hero {
-  background: url("https://picsum.photos/1600/600?business") no-repeat center center/cover;
+  background: #e63946;   /* solid red background */
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
+  flex-direction: column;
 }
 
 .hero-text {
@@ -69,19 +72,24 @@ nav ul li a:hover {
   border-radius: 10px;
 }
 
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-.btn {
-  display: inline-block;
-  background: #ff6600;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  margin-top: 1rem;
-  text-decoration: none;
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+button, .btn {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
   border-radius: 5px;
+  transition: 0.3s;
 }
 
 .btn:hover {
