@@ -57,19 +57,13 @@ nav ul li a:hover {
 /* Hero section */
 .hero {
   background: #e63946;   /* solid red background */
-  height: 80vh;
+  height: 70vh;          /* adjusted height */
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
   text-align: center;
   flex-direction: column;
-}
-
-.hero-text {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 2rem;
-  border-radius: 10px;
 }
 
 .hero h1 {
@@ -92,13 +86,14 @@ button, .btn {
   transition: 0.3s;
 }
 
-.btn:hover {
-  background: #e65c00;
+button:hover, .btn:hover {
+  background: #e63946;   /* red hover */
 }
 
 /* Sections */
-.section {
-  padding: 4rem 0;
+section {
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .container {
@@ -124,23 +119,7 @@ h2 {
   margin: 1rem;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   min-width: 250px;
-}
-
-/* Cards Gallery */
-.cards-gallery {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.cards-gallery img {
-  max-width: 300px;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 /* Contact */
